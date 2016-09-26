@@ -1,0 +1,497 @@
+* {
+  transition: all .3s ease;
+}
+
+html,
+body {
+  font-family: 'Aero' !important;
+}
+a {
+  text-decoration: none !important;
+  font-family: 'Aero' !important;
+}
+
+.sub-menu > li {
+  padding: 10px 20px;
+  margin: -10px -20px -10px -20px !important;
+}
+
+.sub-menu > li a {
+  background-color: transparent;
+  color: #000 !important;
+  font-family: 'Lato Light' !important;
+}
+
+.sub-menu > li a:hover {
+  color: #000 !important;
+}
+
+ul.sub-menu {
+    margin-left:5px !important;
+    margin-top:-5px;
+    background: rgba(204, 204, 204, 0.8) !important;
+}
+
+.menu-item a:hover,
+.sub-menu > li:hover {
+  background-color: #F6A201;
+  color: #fff !important;
+}
+
+.font1 {
+  font-family: 'Lubalin';
+}
+
+h2.post-title,
+h2.post-title a {
+  font-size: 20px;
+  color: #fff !important;
+  font-family: 'Aero' !important;
+  padding-left: 2px;
+}
+
+h3.post-date {
+    font-size: 14px;
+    margin-top: -10px;
+    color: #fff;
+    font-family: 'Aero' !important;
+    padding-left: 5px;
+}
+
+.logoku {
+  width: 70px;
+  height: 70px;
+}
+
+.vc-item.vc_slide_post {
+    width: 300px !important;
+    background-color: #EB240D;
+    margin-left: 20px;
+    padding: 10px;
+    /*border-radius: 10px;*/
+    height:100% !important;
+    padding-bottom:10px !important;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.alm-btn-wrap {
+    clear: both;
+}
+
+ol.vc-carousel-indicators {
+    display: none;
+}
+
+.vc-carousel-inner {
+    width: 85% !important;
+    margin: 0 auto !important;
+}
+
+a.vc_read_more {
+  float: right;
+    color: #fff;
+    font-family: 'Aero' !important;
+    padding-right: 5px;
+}
+
+.vc-carousel-control .icon-prev, .vc-carousel-control .icon-next {
+  padding: 10px !important;
+}
+
+.post-thumb > a > img:hover.attachment-medium {
+    filter: blur(1px);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+    filter: url(#blur-1);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'effect-blur-1\'><feGaussianBlur stdDeviation=\'1\' /></filter></svg>#effect-blur-1");
+}
+
+/* BUTTON */
+button.btn.btn-success {
+   background: rgba(72,217,140,1);
+    background: -moz-linear-gradient(-20deg, rgba(72,217,140,1) 0%, rgba(72,217,140,1) 50%, rgba(45,204,112,1) 51%, rgba(45,204,112,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(72,217,140,1)), color-stop(50%, rgba(72,217,140,1)), color-stop(51%, rgba(45,204,112,1)), color-stop(100%, rgba(45,204,112,1)));
+    background: -webkit-linear-gradient(-20deg, rgba(72,217,140,1) 0%, rgba(72,217,140,1) 50%, rgba(45,204,112,1) 51%, rgba(45,204,112,1) 100%);
+    background: -o-linear-gradient(-20deg, rgba(72,217,140,1) 0%, rgba(72,217,140,1) 50%, rgba(45,204,112,1) 51%, rgba(45,204,112,1) 100%);
+    background: -ms-linear-gradient(-20deg, rgba(72,217,140,1) 0%, rgba(72,217,140,1) 50%, rgba(45,204,112,1) 51%, rgba(45,204,112,1) 100%);
+    background: linear-gradient(160deg, rgba(72,217,140,1) 0%, rgba(72,217,140,1) 50%, rgba(45,204,112,1) 51%, rgba(45,204,112,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48d98c', endColorstr='#2dcc70', GradientType=1 );
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+}
+
+button.btn.btn-warning {
+    background: rgba(255,190,36,1);
+    background: -moz-linear-gradient(-20deg, rgba(255,190,36,1) 0%, rgba(255,190,36,1) 50%, rgba(250,164,0,1) 51%, rgba(250,164,0,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,190,36,1)), color-stop(50%, rgba(255,190,36,1)), color-stop(51%, rgba(250,164,0,1)), color-stop(100%, rgba(250,164,0,1)));
+    background: -webkit-linear-gradient(-20deg, rgba(255,190,36,1) 0%, rgba(255,190,36,1) 50%, rgba(250,164,0,1) 51%, rgba(250,164,0,1) 100%);
+    background: -o-linear-gradient(-20deg, rgba(255,190,36,1) 0%, rgba(255,190,36,1) 50%, rgba(250,164,0,1) 51%, rgba(250,164,0,1) 100%);
+    background: -ms-linear-gradient(-20deg, rgba(255,190,36,1) 0%, rgba(255,190,36,1) 50%, rgba(250,164,0,1) 51%, rgba(250,164,0,1) 100%);
+    background: linear-gradient(160deg, rgba(255,190,36,1) 0%, rgba(255,190,36,1) 50%, rgba(250,164,0,1) 51%, rgba(250,164,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbe24', endColorstr='#faa400', GradientType=1 );
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+}
+
+button.btn.btn-success:hover, button.btn.btn-warning:hover {
+    margin-left: 4px;
+    /*margin-top: 4px;*/
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.15);
+}
+
+button.alm-load-more-btn {
+    background: #8e8e8e;
+    background: -moz-linear-gradient(#8e8e8e,#999);
+    background: -webkit-gradient(#8e8e8e,#999);
+    background: -webkit-linear-gradient(#8e8e8e,#999);
+    background: -o-linear-gradient(#8e8e8e,#999);
+    background: -ms-linear-gradient(#8e8e8e,#999);
+    background: linear-gradient(#8e8e8e,#999);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48d98c', endColorstr='#2dcc70', GradientType=1 );
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.15);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: normal;
+    font-size: 12px;
+    width: 150px;
+}
+
+button.alm-load-more-btn:hover {
+    margin-left: 2px;
+    /*margin-top: 4px;*/
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.15);
+}
+
+header.header-mobile {
+  display: none;
+}
+
+/* MOBILE*/
+@media screen and (max-width: 600px) {
+  header.header-dekstop {
+  display: none;
+  }
+
+  header.header-mobile {
+  display: block;
+  }
+
+.wpb_widgetised_column.wpb_content_element.custom-countdown-wrapper {
+  margin-left: 0;
+}
+
+.countdown_section {
+  background-color: #e5e5e5;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 5px;
+  border: 2px #999;
+  margin-left: 5px;
+}
+
+.countdown_show4 .countdown_section {
+  width: 23%;
+}
+
+}
+
+/* DEKSTOP*/
+@media screen and (min-width: 600px) {
+  /* countdown */
+.wpb_widgetised_column.wpb_content_element.custom-countdown-wrapper {
+  margin-left: 25%;
+}
+
+.countdown_section {
+  background-color: #e5e5e5;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 5px;
+  border: 2px #999;
+  margin-left: 5px;
+  width: 15% !important;
+}
+
+}
+
+/* SVG */
+svg {
+  display: none;
+}
+
+/*footer*/
+footer#colophon {
+        /*border-top: solid 3px #ab0012;
+        background : #ab0012;
+        font-family: 'Lato Light';*/
+}
+
+/*carousel*/
+img.attachment-medium {
+    /*min-width:300px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;*/
+    width: 100%;
+}
+
+a.vc-right.vc-carousel-control {
+    display : none !important;
+}
+
+/*page*/
+div#page #main{
+    padding-top:75px
+}
+
+body.home div#page #main{
+  margin-top: -75px;
+}
+
+/*shadow header*/
+header#masthead {
+  -webkit-box-shadow: 0 10px 10px -6px #8B0B0A;
+  -moz-box-shadow: 0 10px 10px -6px #8B0B0A;
+  box-shadow: 0 10px 10px -6px #8B0B0A;
+}
+
+/*menu header*/
+#top-menu ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.icon-bahasa {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-bahasa-eng {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.icon-bahasa-mobile {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.icon-bahasa-mobile-eng {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.dua-bahasa {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.konten {
+  background-image: url(http://demo.des.net.id/borobudur-ultrathon/wp-content/uploads/2016/01/bg.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 544px; /*sesuai height gambarnya*/
+    width: auto;
+}
+
+.tengah {
+  text-align: center;
+  margin:auto;
+}
+
+.wpb_row {
+  margin-bottom: 0px !important;
+}
+
+.link1 {
+  background-image: url(http://demo.des.net.id/borobudurmarathon/wp-content/uploads/2015/12/bg-link1.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.galeri {
+  background-image: url(http://demo.des.net.id/borobudurmarathon/wp-content/uploads/2015/12/2015-12-29.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px; /*sesuai height gambarnya*/
+}
+
+#masthead{
+ position: fixed;
+ width: 100%;
+ z-index: 3;
+ text-align:center;
+}
+
+.font1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.font2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.font3 {
+  color: #F6B80D !important;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Lato Light';
+}
+
+.font4 {
+  color: #FFFFFF;
+  font-family: 'Lato Light';
+}
+
+.countdown_amount {
+  background: #ccc;
+  border-radius:2px;
+  margin: -5px -5px -15px -5px;
+  padding: 10px;
+}
+
+.font-seputar {
+  font-weight: 700;
+  color: #5d5d5d !important;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.font5 {
+  font-family: 'Lato Light' !important;
+}
+
+.font6 {
+  font-family: 'Aero' !important;
+  font-weight: bold;
+}
+
+.sponsor {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+.hr-sponsor {
+  width: 50%;
+  background-color: #ebebeb;
+}
+
+.kontak {
+  background-color: #ab0012;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Lato Light' !important;
+}
+
+.berita {
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.judul {
+  font-family: 'Aero' !important;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.paddingheaderhome {
+  margin-top: 70px !important;
+}
+
+.effect8
+{
+  -webkit-box-shadow: 0 5px 10px 10px #EAEAEA;
+  -moz-box-shadow: 0 5px 10px 10px #EAEAEA;
+  box-shadow: 0 5px 10px 10px #EAEAEA;
+  }
+
+.top-konten {
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.padding20 {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.padding1010 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.style-top-menu {
+  text-align:center;
+  padding-top:20px;
+}
+
+.back-abu {
+  background-color:#F5F5F5;
+}
+
+.back-putih {
+  background-color:#fff !important;
+}
+
+.bottom20 {
+  padding-bottom:20px;
+}
+
+.update-terbaru {
+  text-align: left;
+  color: #5d5d5d;
+}
+
+.font-putih {
+  color:#FFFFFF;
+}
+
+.button-cari {
+  background-color:#e95140;
+}
+
+.develop {
+  color:#FFFFFF;
+  padding-top:10px;
+  border-top:2px solid #9D0A1A;
+}
+
+.icon-sosmed {
+  height: 30px;
+  width: 30px;
+}
+
+.icon-sosmed-center {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
